@@ -6,7 +6,7 @@ bot.on("ready", async () => {
   bot.user.setActivity(`Hey, Wassup!`);
 });
 
-const prefix = '-';
+
 
 bot.on("message", async message => {
 
@@ -14,7 +14,8 @@ bot.on("message", async message => {
   
   if (message.author.bot) return;
   msg = message.content.toLowerCase();
- 
+  let prefix = '-';
+  
   if(msg.startWith(prefix + "leetcode" )){
     
   }
