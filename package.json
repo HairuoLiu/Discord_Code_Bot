@@ -6,9 +6,8 @@
   "scripts": {
     "start": "node bot.js"
   },
-  "author": "hai",
   "dependencies": {
-    "discord.js": "11.1.0",
+    "discord.js": "11.3.2",
     "request": "2.81.0"
   }
 }
